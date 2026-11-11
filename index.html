@@ -21,44 +21,43 @@ body{
 }
 
 header{
-    background:white;
+    background:#ffffff;
     text-align:center;
-    padding:40px 20px;
+    padding:25px;
 }
 
 .logo{
-    max-width:700px;
-    width:100%;
-    margin-bottom:30px;
+    max-width:420px;
+    width:80%;
 }
 
 .hero{
     background:#0d3766;
     color:white;
-    padding:80px 20px;
     text-align:center;
+    padding:80px 20px;
 }
 
 .hero h1{
-    font-size:48px;
+    font-size:52px;
     margin-bottom:20px;
 }
 
 .hero p{
     font-size:22px;
-    max-width:900px;
+    max-width:1000px;
     margin:auto;
 }
 
 .btn{
     display:inline-block;
     margin-top:30px;
-    padding:15px 30px;
-    background:#ffffff;
+    background:white;
     color:#0d3766;
     text-decoration:none;
-    border-radius:8px;
     font-weight:bold;
+    padding:15px 30px;
+    border-radius:8px;
 }
 
 section{
@@ -70,6 +69,7 @@ section{
 h2{
     color:#0d3766;
     margin-bottom:20px;
+    font-size:34px;
 }
 
 .cards{
@@ -79,9 +79,29 @@ h2{
 }
 
 .card{
-    background:#f5f7fa;
+    background:#f6f7f9;
     padding:25px;
     border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.stat{
+    background:#0d3766;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+}
+
+.stat h3{
+    font-size:40px;
 }
 
 footer{
@@ -91,9 +111,22 @@ footer{
     padding:30px;
 }
 
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:60px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
 </style>
 
 </head>
+
 <body>
 
 <header>
@@ -102,7 +135,7 @@ footer{
 
 </header>
 
-<div class="hero">
+<section class="hero">
 
 <h1>Transformamos estrategia en resultados</h1>
 
@@ -113,87 +146,48 @@ prácticas orientadas a resultados.
 </p>
 
 <a class="btn" href="https://wa.me/527291277385">
-Solicitar información por WhatsApp
+Solicitar Información
 </a>
 
-</div>
-
-<section>
-
-<h2>Servicios</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Planeación Estratégica</h3>
-<p>Dirección estratégica, KPI, Balanced Scorecard y desarrollo organizacional.</p>
-</div>
-
-<div class="card">
-<h3>Sistemas de Gestión</h3>
-<p>ISO 9001, ISO 14001, ISO 45001 e IATF 16949.</p>
-</div>
-
-<div class="card">
-<h3>Mejora Continua</h3>
-<p>Lean Six Sigma, productividad, reducción de desperdicios y optimización de procesos.</p>
-</div>
-
-<div class="card">
-<h3>Cumplimiento Normativo</h3>
-<p>STPS, SEMARNAT, Protección Civil y requisitos legales.</p>
-</div>
-
-<div class="card">
-<h3>Capacitación</h3>
-<p>Formación especializada para personal operativo, mandos medios y directivos.</p>
-</div>
-
-<div class="card">
-<h3>Auditorías</h3>
-<p>Auditorías internas y evaluación del desempeño de los sistemas de gestión.</p>
-</div>
-
-</div>
-
 </section>
 
 <section>
 
-<h2>¿Por qué INAD?</h2>
-
-<ul>
-<li>Más de 25 años de experiencia profesional.</li>
-<li>Experiencia en manufactura, automotriz, construcción y servicios.</li>
-<li>Implementación y certificación de sistemas de gestión.</li>
-<li>Especialización en calidad, seguridad, salud ocupacional y medio ambiente.</li>
-<li>Enfoque orientado a resultados de negocio.</li>
-</ul>
-
-</section>
-
-<section>
-
-<h2>Contacto</h2>
-
-<p><strong>WhatsApp (solo mensajes):</strong> 7291277385</p>
-
-<p><strong>Correo:</strong> grbrcm.1972@gmail.com</p>
+<h2>¿Quiénes Somos?</h2>
 
 <p>
-<strong>LinkedIn:</strong><br>
-www.linkedin.com/in/gerardobarretocamacho
+INAD Ingeniería Administrativa es una firma de consultoría especializada en planeación estratégica,
+sistemas de gestión, productividad, calidad, seguridad y salud ocupacional, medio ambiente y
+cumplimiento normativo.
+</p>
+
+<p style="margin-top:15px;">
+Liderada por Gerardo Barreto Camacho, profesionista con más de 25 años de experiencia en
+manufactura, automotriz, construcción y servicios.
 </p>
 
 </section>
 
-<footer>
+<section>
 
-<p>
-INAD Ingeniería Administrativa © 2026
-</p>
+<h2>Resultados Obtenidos</h2>
 
-</footer>
+<div class="stats">
 
-</body>
-</html>
+<div class="stat">
+<h3>25+</h3>
+<p>Años de experiencia</p>
+</div>
+
+<div class="stat">
+<h3>78%</h3>
+<p>OEE alcanzado</p>
+</div>
+
+<div class="stat">
+<h3>30%</h3>
+<p>Reducción de Scrap</p>
+</div>
+
+<div class="stat">
+<h3>5+<
